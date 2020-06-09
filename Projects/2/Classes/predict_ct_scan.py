@@ -24,6 +24,6 @@ def prepare(filepath):
     return new_array.reshape(-1,IMG_SIZE,IMG_SIZE,1)
 
 model = tf.keras.models.load_model('covid19_pneumonia_detection_cnn.h5')	 #provides the path of your trained CNN model
-prediction = model.predict([prepare('n2.png')])                              #paste the PNG image in Classes Directory and write the name of image file in inverted colon like for covid_scan image file - 'covid_scan.png'
+prediction = model.predict([prepare(' ')])                              #paste the PNG image in Classes Directory and write the name of image file in inverted colon like for covid_scan image file - 'covid_scan.png'
 
 print(categories[int(prediction[0][0])])
