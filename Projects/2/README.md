@@ -12,7 +12,7 @@ TensorFlow was originally developed by researchers and engineers working on the 
 
 TensorFlow provides stable Python and C++ APIs, as well as non-guaranteed backward compatible API for other languages.
 
-We will be using Tensorflow 2.1.0 with Python3 for detecting Covid-19 Pneumonia signs from CT Scan Images by a CNN(Convolutional Neural Network) Model. The model have a uniform dataset of 2482 Images of CT Scan which consist 1252 Images of Covid-19 Pneumonia affected patients and 1230 shows normal patient scans.
+We will be using Tensorflow 2.1.0 with Python3 for detecting Covid-19 Pneumonia signs from CT Scan Images by a CNN(Convolutional Neural Network) Model. The model have a uniform dataset of 2502 Images of CT Scan which consist 1252 Images of Covid-19 Pneumonia affected patients and 1250 shows normal patient scans.
 
 ## Installation
 Please follow the [Installation Guide](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Documentation/Installation/Installation.md) to install COVID-19 AI Classification Tensorflow.
@@ -44,7 +44,7 @@ Open your browser and navigate to shown web address in shell. In our case we gav
 # COVID19-AI-Detection
 Open source Artificial Intelligence (CNNs &amp; GANs) for COVID-19 Pneumonia detection/early detection.
 
-Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 2482 Images of CT Scan which consist 1252 Images of Covid-19 Pneumonia affected patients and 1230 shows normal patient scans.
+Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 2502 Images of CT Scan which consist 1252 Images of Covid-19 Pneumonia affected patients and 1250 shows normal patient scans.
 
 Here are some CT-Scans of lungs:
 
