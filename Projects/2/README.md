@@ -20,9 +20,9 @@ Please follow the [Installation Guide](https://github.com/aniruddh-1/AI-Classifi
 ## Project Motivation
 The Project can be used for following purposes:
 1. **Training a CNN model on the given Image Dataset** 
- - Unzip the CT Scan Image [dataset](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) after downloading it **or** you can also generate or import any other CT Scan dataset in this directory with same directory structure as in unzipped [dataset](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Model/Dataset/covid19-dataset) folder.
+ - Unzip the CT Scan Image [dataset](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset) after downloading it.
  - Use [dataset_preparation.py](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes/dataset_preparation.py) to resize all the images into 200x200 Pixels, then converting the PNG format dataset and their labels(covid19 or normal) into Pickle as the Model will take them in form of pickle dataset.
- - The above program will generate two pickle files(X.pickle, Y.pickle) in same [Classes](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes) directory, we have also provided generated pickle files for same [dataset](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes), so that you can use these pickle files directly in generating CNN Model by using [__init__.py](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes/__init__.py).
+ - The above program will generate two pickle files(X.pickle, Y.pickle) in same [Classes](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes) directory, we have also provided generated pickle files for same [dataset](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Model/Dataset), you have to paste these pickle files in [Classes](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes) Directory for using it as a dataset for your model in generating CNN Model by using [__init__.py](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes/__init__.py).
  - The program([__init__.py](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes/__init__.py)) will generate a saved model file(In HDF5 Format like [this](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Model/Pretrained%20Model/covid19_pneumonia_detection_cnn.h5)) and a tensorboard log [file](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Logs/tensorboard_logs) which shows the performance of Model Accuracy, Loss, Precision, Recall and AUC for both Training and Validation Data.
 
  **Note:** Use [rename_image_and_filetype_conversion.py](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Classes/rename_image_and_filetype_conversion.py) for making all images in same format(PNG) and indexed as it is possible that while using a new or any open source CT Scan Image dataset in Step 1, all may not be in same Image format and Indexed properly.
@@ -66,7 +66,6 @@ Normal Patient Scan:
 
 &nbsp;
 
-You can also go through our [dataset](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/2/Model/Dataset/covid19-dataset) where we have indexed all the images and converted them into same format(PNG).
 We have used tensorflow library for training a binary classification model of CT Scans using Convolutional Neural Network. The graph of model is as follows:
 
 ![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Media/Images/cnn_architecture.png "CNN")
