@@ -17,19 +17,19 @@ The following guide will take you through setting up and installing the [AI-Clas
 For this Project, the operating system choice is [Ubuntu 18.04.4 LTS](https://releases.ubuntu.com/18.04.4/ "Ubuntu 18.04.4 LTS"). To get your operating system installed you can follow the [Create a bootable USB stick on Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0 "Create a bootable USB stick on Ubuntu") tutorial.
 
 ## Python3 & Tensorflow2
-Ubuntu 18.04 come with Python 3.6 by default. You should be able to invoke it with the command in Shell:
+Ubuntu 18.04 come with Python3 by default. You should be able to invoke it with the command in Shell:
 ```
-PIP3
+python3
 ```
 **The installation can be run on an existing installation of Ubuntu, however we recommend using a fresh installation.**
 If you face any error or problem while running above command, follow the below commands:
 ```
 sudo apt-get update
-sudo apt-get install python3.6
+sudo apt-get install python3
 ```
 You can then invoke it with the command:
 ```
-python3.6
+python3
 ```
 Now install the required remaining Python libraries and Tensorflow2 on system by following shell commands:
 ```
@@ -61,7 +61,7 @@ Once you have used the command above you will see a directory called **AI-Classi
 Developers from the Github community that would like to contribute to the development of this project should first create a fork, and clone that repository. For detailed information please view the [CONTRIBUTING](https://github.com/COVID-19-AI-Research-Project/COVID19-AI-Quantum-Tensorflow/blob/master/CONTRIBUTING.md "CONTRIBUTING") guide.
 
 ## Quick Install
-To do a continuous install of above Python Libraries and Tensorflow2 after installing Python3.6, use the following command from the [Projects/1](https://github.com/aniruddh-1/AI-Classification/tree/0.1.0/Projects/1):
+To do a continuous install of above Python Libraries and Tensorflow2 after installing Python3, use the following command from the [Projects/1](https://github.com/aniruddh-1/AI-Classification/tree/0.1.0/Projects/1):
 ```
 sh Scripts/Installation/Shell/Install.sh
 ```
