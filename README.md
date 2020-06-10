@@ -17,7 +17,8 @@ Below you will find details of the projects in this repository:
 
 |ID | Project | Description | Author |
 |---|---------|-------------|--------|
-| 1 | [COVID-19 Pneumonia detection/early detection](Projects/1/ "COVID-19 Pneumonia detection/early detection") | Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 764 Images of CT Scan which consist 349 Images of Covid-19 Pneumonia affected patients and remaining shows normal patient scans. | [Aniruddh Sharma](https://www.leukemiaresearchassociation.ai.com/team/AniruddhSharma "Aniruddh Sharma") |
+| 1 | [COVID-19 Pneumonia detection/early detection](Projects/1/ "COVID-19 Pneumonia detection/early detection") | Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 764 Images of CT Scan which consist 349 Images of Covid-19 Pneumonia affected patients and remaining shows normal patient scans. | [Aniruddh Sharma](https://www.leukemiaresearchassociation.ai/team/aniruddh-sharma "Aniruddh Sharma") |
+| 3 | [COVID-19 Pneumonia detection/early detection](Projects/3/ "COVID-19 Pneumonia detection/early detection") | Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 2502 Images of CT Scan which consist 1252 Images of Covid-19 Pneumonia affected patients and 1250 shows normal patient scans. | [Aniruddh Sharma](https://www.leukemiaresearchassociation.ai/team/aniruddh-sharma "Aniruddh Sharma") |
 
 &nbsp;
 
