@@ -61,7 +61,7 @@ Normal Patient Scan:
 
 ![alt text](https://github.com/aniruddh-1/AI-Classification/blob/0.1.0/Projects/3/Media/Images/normal_scan.png "CT Scan2")
 
-### Data
+### Dataset Source
 - Kaggle: [SARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 (COVID-19) identification](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset)
 
 &nbsp;
