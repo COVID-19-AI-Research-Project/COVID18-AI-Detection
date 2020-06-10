@@ -8,15 +8,15 @@ if [ "$cmsg" = "Y" -o "$cmsg" = "y" ]; then
 
     echo "- GeniSysAI installing Python libraries and Tensorflow"
 
-    pip install numpy
-    pip install pickle-mixin
-    pip install os-sys
-    pip install times
-    pip install h5py
-    pip install random2
-    pip install tensorboard==2.1.0
-    pip install tensorflow==2.1.0
-    pip install tensorflow-gpu==2.1.0
+    pip3 install numpy
+    pip3 install pickle-mixin
+    pip3 install os-sys
+    pip3 install times
+    pip3 install h5py
+    pip3 install random2
+    pip3 install tensorboard==2.1.0
+    pip3 install tensorflow==2.1.0
+    pip3 install tensorflow-gpu==2.1.0
 
     exit 0
 
