@@ -49,8 +49,8 @@ class Model():
         inp = tf.keras.Input(shape=(self.Helpers.confs["data"]["dim"], self.Helpers.confs["data"]["dim"],
                                     self.Helpers.confs["data"]["channels"]))
 
-        net = tf.keras.layers.Conv2D(3, (3, 3), padding='same')(inp)
-
+        net = tf.keras.layers.Conv2D(5, (3, 3), padding='same')(inp)
+        
         dnet = tf.keras.applications.DenseNet121(
             weights='imagenet', include_top=False)
         net = dnet(net)
